@@ -1,0 +1,90 @@
+.goro_tmp {
+  max-width: 961px;
+}
+
+.goro_main_frame {
+  background-color: #292929;
+  color: #ababab;
+  padding: 20px 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  line-height: 18px;
+  font-size: 14px;
+  margin: auto;
+}
+
+.goro_main_title {
+  font-size: 20px;
+  color: #968070;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.goro_second_title {
+  font-size: 16px;
+  color: #968070;
+  border-bottom: 2px solid #968070;
+  margin-bottom: 10px;
+}
+
+.goro_third_title {
+  font-size: 14px;
+  color: #968070;
+  margin-bottom: 10px;
+}
+
+.goro_summary_frame {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  margin: 15px 0px;
+}
+
+.goro_summary_img {
+  height: 100px;
+}
+
+.goro_summary_content {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  gap: 5.5px;
+}
+
+.goro_summary {
+  border-left: 4px solid #968070;
+  border-right: 4px solid #968070;
+  padding: 2px 10px 1px 10px;
+  background-color: #403B37;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+
+.goro_summary_title {
+  margin-bottom: 0;
+}
+
+.goro_summary_desc {
+  padding: 15px 10px;
+  flex-grow: 0.4;
+}
+
+.goro_star {
+  color: #ebbf90;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.goro_quote_left {
+  color: #ebbf90;
+  margin-right: 8px;
+}
+
+.goro_quote_right {
+  color: #ebbf90;
+  margin-left: 8px;
+}
+
+.goro_summary_name {
+  font-weight: 600;
+}
